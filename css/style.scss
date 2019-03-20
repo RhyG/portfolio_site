@@ -128,7 +128,7 @@ nav {
 
     .image-container {
         max-width: 75%;
-        margin-top: 50%;
+        padding-top: 3em;
         margin: auto;
 
         &:hover {
@@ -148,8 +148,10 @@ nav {
     flex-wrap: wrap;
 
     .section-title {
-        margin-top: 2em;
         @include section-title-style;
+        span {
+            border-bottom: 5px solid #d3f6eb;
+        }
     }
 
     .skill-title,
@@ -162,7 +164,7 @@ nav {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 2em;
+        margin-bottom: 4em;
     }
 
     ul {
@@ -174,12 +176,24 @@ nav {
 footer {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5em;
     border-top: 1px solid #f0f0f0;
+    height: 8em;
+    align-items: center;
+    justify-content: space-between;
 
     #footer-contact {
-        img {
-            height: 2em;
+        display: flex;
+        justify-content: space-between;
+        a {
+            color: $font_color_primary;
+            height: 1.5em;
             width: auto;
+            &:hover {
+                background-color: #e45c4c;
+                color: #fff;
+                text-decoration: none;
+            }
         }
     }
 }
@@ -222,7 +236,7 @@ footer {
     }
 
     #skills {
-        margin-top: 5em;
+        margin-top: 4em;
         .skill-title {
             width: 20%;
         }
@@ -239,6 +253,21 @@ footer {
                 margin: 0.5em;
                 width: 4em;
                 height: auto;
+            }
+        }
+    }
+
+    footer {
+        #logo {
+            width: 60%;
+        }
+        #footer-contact {
+            width: 40%;
+            h3 {
+                width: 100%;
+            }
+            img {
+                margin-right: 1.5rem;
             }
         }
     }

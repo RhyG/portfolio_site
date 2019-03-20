@@ -106,12 +106,13 @@ nav .navlink:hover {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .projects .section-title span {
-  background-color: #f0f0f0;
-  padding: 0.3em;
+  border-bottom: 5px solid pink;
+  /* box-shadow: 10px 10px grey; 
+        background-color: #f0f0f0;*/
 }
 
 .projects #project-1 {
@@ -145,7 +146,7 @@ nav .navlink:hover {
 
 .projects .image-container {
   max-width: 75%;
-  margin-top: 50%;
+  padding-top: 3em;
   margin: auto;
 }
 
@@ -170,17 +171,21 @@ nav .navlink:hover {
 }
 
 #skills .section-title {
-  margin-top: 2em;
   width: 100%;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 #skills .section-title span {
-  background-color: #f0f0f0;
-  padding: 0.3em;
+  border-bottom: 5px solid pink;
+  /* box-shadow: 10px 10px grey; 
+        background-color: #f0f0f0;*/
+}
+
+#skills .section-title span {
+  border-bottom: 5px solid #d3f6eb;
 }
 
 #skills .skill-title,
@@ -196,7 +201,7 @@ nav .navlink:hover {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 #skills ul {
@@ -210,12 +215,36 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 5em;
   border-top: 1px solid #f0f0f0;
+  height: 8em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-footer #footer-contact img {
-  height: 2em;
+footer #footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer #footer-contact a {
+  color: #161616;
+  height: 1.5em;
   width: auto;
+}
+
+footer #footer-contact a:hover {
+  background-color: #e45c4c;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Mobile styles */
@@ -247,7 +276,7 @@ footer #footer-contact img {
     width: 50%;
   }
   #skills {
-    margin-top: 5em;
+    margin-top: 4em;
   }
   #skills .skill-title {
     width: 20%;
@@ -263,6 +292,18 @@ footer #footer-contact img {
     margin: 0.5em;
     width: 4em;
     height: auto;
+  }
+  footer #logo {
+    width: 60%;
+  }
+  footer #footer-contact {
+    width: 40%;
+  }
+  footer #footer-contact h3 {
+    width: 100%;
+  }
+  footer #footer-contact img {
+    margin-right: 1.5rem;
   }
 }
 
