@@ -189,8 +189,8 @@ footer {
 
     #footer-contact {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-
         a {
             color: $font_color_primary;
             height: 1.5em;
@@ -252,20 +252,15 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
 
-        .logo {
-            border: 2px solid yellow;
-        }
-
         #footer-contact {
             span {
+                text-align: center;
                 width: 100%;
-                border: 2px solid green;
             }
 
             #socials {
                 width: 100%;
                 margin: auto;
-                border: 2px solid red;
             }
         }
     }

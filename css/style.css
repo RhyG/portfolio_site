@@ -243,6 +243,8 @@ footer #footer-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -300,17 +302,13 @@ footer #footer-contact a:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  footer .logo {
-    border: 2px solid yellow;
-  }
   footer #footer-contact span {
+    text-align: center;
     width: 100%;
-    border: 2px solid green;
   }
   footer #footer-contact #socials {
     width: 100%;
     margin: auto;
-    border: 2px solid red;
   }
 }
 
