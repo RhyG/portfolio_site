@@ -28,14 +28,13 @@ html {
 #page {
     max-width: 1096px;
     margin: auto;
-
-
+    background-image: url("../img/bg.png")
 }
 
 nav {
     color: $font_color_primary;
     width: 100%;
-    height: 3em;
+    height: 4em;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -50,6 +49,8 @@ nav {
             text-decoration: none;
         }
     }
+
+    @include logo-style;
 }
 
 .header {
@@ -90,7 +91,7 @@ nav {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
 
     .section-title {
         @include section-title-style;
@@ -105,7 +106,7 @@ nav {
     }
 
     .project-info {
-        padding: 1em 1em 1em 1em;
+        padding: 1.2em 1.2em 1.2em 1.2em;
 
         h3 {
             font-size: 1.5rem;
@@ -149,6 +150,7 @@ nav {
 
     .section-title {
         @include section-title-style;
+
         span {
             border-bottom: 5px solid #d3f6eb;
         }
@@ -168,7 +170,8 @@ nav {
     }
 
     ul {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        font-weight: 100;
         list-style: none;
     }
 }
@@ -176,23 +179,28 @@ nav {
 footer {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5em;
+    margin-top: 1em;
     border-top: 1px solid #f0f0f0;
-    height: 8em;
+    height: 6em;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff;
+    @include logo-style;
 
     #footer-contact {
         display: flex;
         justify-content: space-between;
+
         a {
             color: $font_color_primary;
             height: 1.5em;
             width: auto;
+
             &:hover {
                 background-color: #e45c4c;
                 color: #fff;
                 text-decoration: none;
+                cursor: pointer;
             }
         }
     }
@@ -201,8 +209,21 @@ footer {
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
 
-    section {
+    #page {
+        background-color: #fff;
+    }
+
+    section,
+    footer {
         margin: 1em;
+    }
+
+    .projects,
+    #skills {
+        .section-title {
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
     }
 
     #header-img {
@@ -221,10 +242,34 @@ footer {
     }
 
     .skill-list {
-        ul li{
+        ul li {
             display: inline;
         }
     }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .logo {
+            border: 2px solid yellow;
+        }
+
+        #footer-contact {
+            span {
+                width: 100%;
+                border: 2px solid green;
+            }
+
+            #socials {
+                width: 100%;
+                margin: auto;
+                border: 2px solid red;
+            }
+        }
+    }
+
 }
 
 /* Desktop styles */
@@ -232,26 +277,30 @@ footer {
 
     #project-1,
     #project-2 {
-        width: 50%;
+        width: 49%;
     }
 
     #skills {
         margin-top: 4em;
+
         .skill-title {
             width: 20%;
         }
 
         .skill-list {
-            margin-left: auto;
-            width: 30%;
+            width: 50%;
+
+            ul {
+                margin-left: 5em;
+            }
         }
 
         .skill-icons {
-            width: 50%;
+            width: 30%;
 
             img {
                 margin: 0.5em;
-                width: 4em;
+                width: 3em;
                 height: auto;
             }
         }
@@ -261,11 +310,14 @@ footer {
         #logo {
             width: 60%;
         }
+
         #footer-contact {
             width: 40%;
+
             h3 {
                 width: 100%;
             }
+
             img {
                 margin-right: 1.5rem;
             }

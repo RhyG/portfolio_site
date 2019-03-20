@@ -19,12 +19,13 @@ html {
 #page {
   max-width: 1096px;
   margin: auto;
+  background-image: url("../img/bg.png");
 }
 
 nav {
   color: #161616;
   width: 100%;
-  height: 3em;
+  height: 4em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -45,6 +46,11 @@ nav .navlink {
 nav .navlink:hover {
   color: #07889B;
   text-decoration: none;
+}
+
+nav .logo img {
+  height: 3em;
+  width: auto;
 }
 
 .header {
@@ -96,9 +102,9 @@ nav .navlink:hover {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .projects .section-title {
@@ -124,7 +130,7 @@ nav .navlink:hover {
 }
 
 .projects .project-info {
-  padding: 1em 1em 1em 1em;
+  padding: 1.2em 1.2em 1.2em 1.2em;
 }
 
 .projects .project-info h3 {
@@ -205,7 +211,8 @@ nav .navlink:hover {
 }
 
 #skills ul {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  font-weight: 100;
   list-style: none;
 }
 
@@ -215,15 +222,21 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 5em;
+  margin-top: 1em;
   border-top: 1px solid #f0f0f0;
-  height: 8em;
+  height: 6em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #fff;
+}
+
+footer .logo img {
+  height: 3em;
+  width: auto;
 }
 
 footer #footer-contact {
@@ -245,12 +258,22 @@ footer #footer-contact a:hover {
   background-color: #e45c4c;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
-  section {
+  #page {
+    background-color: #fff;
+  }
+  section,
+  footer {
     margin: 1em;
+  }
+  .projects .section-title,
+  #skills .section-title {
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
   #header-img {
     width: 100%;
@@ -267,13 +290,35 @@ footer #footer-contact a:hover {
   .skill-list ul li {
     display: inline;
   }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .logo {
+    border: 2px solid yellow;
+  }
+  footer #footer-contact span {
+    width: 100%;
+    border: 2px solid green;
+  }
+  footer #footer-contact #socials {
+    width: 100%;
+    margin: auto;
+    border: 2px solid red;
+  }
 }
 
 /* Desktop styles */
 @media only screen and (min-width: 961px) {
   #project-1,
   #project-2 {
-    width: 50%;
+    width: 49%;
   }
   #skills {
     margin-top: 4em;
@@ -282,15 +327,17 @@ footer #footer-contact a:hover {
     width: 20%;
   }
   #skills .skill-list {
-    margin-left: auto;
-    width: 30%;
+    width: 50%;
+  }
+  #skills .skill-list ul {
+    margin-left: 5em;
   }
   #skills .skill-icons {
-    width: 50%;
+    width: 30%;
   }
   #skills .skill-icons img {
     margin: 0.5em;
-    width: 4em;
+    width: 3em;
     height: auto;
   }
   footer #logo {

@@ -10,9 +10,27 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 3em;
+
     span {
-        border-bottom: 5px solid pink; 
+        border-bottom: 5px solid pink;
         /* box-shadow: 10px 10px grey; 
         background-color: #f0f0f0;*/
+    }
+}
+
+@mixin section-title-mobile {
+    section {
+        .section-title {
+            margin-bottom: 1em;
+        }
+    }
+}
+
+@mixin logo-style {
+    .logo {
+        img {
+        height: 3em;
+        width: auto;
+        }
     }
 }
