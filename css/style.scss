@@ -92,13 +92,16 @@ nav {
     flex-wrap: wrap;
     justify-content: flex-end;
 
+    span {
+        @include section-title-style;
+    }
+
     #project-1 {
         background: #C6E3FF;
     }
 
     #project-2 {
         background: #FFEFB9;
-        margin-left: auto;
     }
 
     .project-info {
@@ -140,13 +143,36 @@ nav {
     }
 }
 
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+
+    span {
+        margin-top: 2em;
+        @include section-title-style;
+    }
+
+    .skill-title,
+    .skill-list,
+    .skill-icons {
+        width: 100%;
+    }
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
     #header-img {
         width: 100%;
     }
-    #project-1, #project-2 {
-        margin: 1em 1em 0.5em 1em;
+
+    #project-1,
+    #project-2 {
+        margin: 0.5em 1em 0.5em 1em;
+    }
+
+    .skill-icons img {
+        height: 2em;
+        width: auto;
     }
 }
 
@@ -155,7 +181,33 @@ nav {
 
     #project-1,
     #project-2 {
-        width: 49%;
+        width: 50%;
+    }
+
+    #skills {
+
+        .skill-title {
+            width: 20%;
+        }
+
+        .skill-list {
+            margin-left: auto;
+            width: 40%;
+
+            ul {
+                list-style: none;
+            }
+        }
+
+        .skill-icons {
+            width: 40%;
+
+            img {
+                margin: 0.5em;
+                width: 4em;
+                height: auto;
+            }
+        }
     }
 }
 

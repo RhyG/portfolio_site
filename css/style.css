@@ -101,13 +101,20 @@ nav .navlink:hover {
           justify-content: flex-end;
 }
 
+.projects span {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
 .projects #project-1 {
   background: #C6E3FF;
 }
 
 .projects #project-2 {
   background: #FFEFB9;
-  margin-left: auto;
 }
 
 .projects .project-info {
@@ -149,13 +156,41 @@ nav .navlink:hover {
   width: 100%;
 }
 
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#skills span {
+  margin-top: 2em;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#skills .skill-title,
+#skills .skill-list,
+#skills .skill-icons {
+  width: 100%;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
   #header-img {
     width: 100%;
   }
-  #project-1, #project-2 {
-    margin: 1em 1em 0.5em 1em;
+  #project-1,
+  #project-2 {
+    margin: 0.5em 1em 0.5em 1em;
+  }
+  .skill-icons img {
+    height: 2em;
+    width: auto;
   }
 }
 
@@ -163,7 +198,25 @@ nav .navlink:hover {
 @media only screen and (min-width: 961px) {
   #project-1,
   #project-2 {
-    width: 49%;
+    width: 50%;
+  }
+  #skills .skill-title {
+    width: 20%;
+  }
+  #skills .skill-list {
+    margin-left: auto;
+    width: 40%;
+  }
+  #skills .skill-list ul {
+    list-style: none;
+  }
+  #skills .skill-icons {
+    width: 40%;
+  }
+  #skills .skill-icons img {
+    margin: 0.5em;
+    width: 4em;
+    height: auto;
   }
 }
 
