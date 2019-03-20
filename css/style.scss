@@ -92,7 +92,7 @@ nav {
     flex-wrap: wrap;
     justify-content: flex-end;
 
-    span {
+    .section-title {
         @include section-title-style;
     }
 
@@ -147,7 +147,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
 
-    span {
+    .section-title {
         margin-top: 2em;
         @include section-title-style;
     }
@@ -157,22 +157,59 @@ nav {
     .skill-icons {
         width: 100%;
     }
+
+    .skill-section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+    }
+
+    ul {
+        font-size: 1.4rem;
+        list-style: none;
+    }
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #f0f0f0;
+
+    #footer-contact {
+        img {
+            height: 2em;
+            width: auto;
+        }
+    }
 }
 
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
+
+    section {
+        margin: 1em;
+    }
+
     #header-img {
         width: 100%;
     }
 
     #project-1,
     #project-2 {
-        margin: 0.5em 1em 0.5em 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
     }
 
     .skill-icons img {
         height: 2em;
         width: auto;
+    }
+
+    .skill-list {
+        ul li{
+            display: inline;
+        }
     }
 }
 
@@ -185,22 +222,18 @@ nav {
     }
 
     #skills {
-
+        margin-top: 5em;
         .skill-title {
             width: 20%;
         }
 
         .skill-list {
             margin-left: auto;
-            width: 40%;
-
-            ul {
-                list-style: none;
-            }
+            width: 30%;
         }
 
         .skill-icons {
-            width: 40%;
+            width: 50%;
 
             img {
                 margin: 0.5em;

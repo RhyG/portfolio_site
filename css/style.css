@@ -101,12 +101,17 @@ nav .navlink:hover {
           justify-content: flex-end;
 }
 
-.projects span {
+.projects .section-title {
   width: 100%;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 2em;
+}
+
+.projects .section-title span {
+  background-color: #f0f0f0;
+  padding: 0.3em;
 }
 
 .projects #project-1 {
@@ -164,7 +169,7 @@ nav .navlink:hover {
       flex-wrap: wrap;
 }
 
-#skills span {
+#skills .section-title {
   margin-top: 2em;
   width: 100%;
   font-size: 1.5rem;
@@ -173,24 +178,65 @@ nav .navlink:hover {
   margin-bottom: 2em;
 }
 
+#skills .section-title span {
+  background-color: #f0f0f0;
+  padding: 0.3em;
+}
+
 #skills .skill-title,
 #skills .skill-list,
 #skills .skill-icons {
   width: 100%;
 }
 
+#skills .skill-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+#skills ul {
+  font-size: 1.4rem;
+  list-style: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-top: 1px solid #f0f0f0;
+}
+
+footer #footer-contact img {
+  height: 2em;
+  width: auto;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
+  section {
+    margin: 1em;
+  }
   #header-img {
     width: 100%;
   }
   #project-1,
   #project-2 {
-    margin: 0.5em 1em 0.5em 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   .skill-icons img {
     height: 2em;
     width: auto;
+  }
+  .skill-list ul li {
+    display: inline;
   }
 }
 
@@ -200,18 +246,18 @@ nav .navlink:hover {
   #project-2 {
     width: 50%;
   }
+  #skills {
+    margin-top: 5em;
+  }
   #skills .skill-title {
     width: 20%;
   }
   #skills .skill-list {
     margin-left: auto;
-    width: 40%;
-  }
-  #skills .skill-list ul {
-    list-style: none;
+    width: 30%;
   }
   #skills .skill-icons {
-    width: 40%;
+    width: 50%;
   }
   #skills .skill-icons img {
     margin: 0.5em;
