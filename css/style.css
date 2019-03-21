@@ -55,30 +55,32 @@ nav .logo img {
 
 .header {
   min-height: 70vh;
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-grid-columns: (1fr)[7];
-      grid-template-columns: repeat(7, 1fr);
 }
 
 .header #header-img {
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 2;
-  grid-column: 6 / span 2;
-  margin-left: auto;
+  width: 100%;
 }
 
 .header img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 15em;
 }
 
 .header #header-desc {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-column: 1 / span 4;
+  width: 100%;
 }
 
 .header #header-desc h1 {
@@ -96,6 +98,41 @@ nav .logo img {
   color: #07889B;
 }
 
+/*
+.header {
+    min-height: 70vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(7, 1fr);
+
+    #header-img {
+        grid-column: 6 / span 2;
+        margin-left: auto;
+    }
+
+    img {
+        width: 15em;
+    }
+
+    #header-desc {
+        grid-column: 1 / span 4;
+
+        h1 {
+            color: $color_highlight;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.5rem;
+            font-weight: 100;
+
+            a {
+                color: $color_highlight;
+            }
+        }
+    }
+} */
 .projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,7 +305,7 @@ footer #footer-contact a:hover {
   #page {
     background-color: #fff;
   }
-  header, section,
+  .header, section,
   footer {
     margin: 1em;
   }
@@ -278,7 +315,13 @@ footer #footer-contact a:hover {
     margin-bottom: 2em;
   }
   #header-img {
-    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-height: 15em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #project-1,
   #project-2 {
@@ -314,6 +357,15 @@ footer #footer-contact a:hover {
 
 /* Desktop styles */
 @media only screen and (min-width: 961px) {
+  .header #header-desc {
+    width: 60%;
+  }
+  .header #header-img {
+    width: 40%;
+  }
+  .header #header-img img {
+    margin-left: 48%;
+  }
   #project-1,
   #project-2 {
     width: 49%;

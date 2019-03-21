@@ -4,6 +4,8 @@ The purpose of this portfolio site is to serve as a primer on who I am and what 
 
 # Functionality / features
 
+# Development and design process
+
 # Considerations
 
 ### Accessibility
