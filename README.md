@@ -6,33 +6,35 @@ The purpose of this website is as an online portfolio that potential employers a
 
 ### Contents
 
-* Functionality / features
-* Development and design process
+* [Functionality / features](#features)
+* [Development and design process](#dev)
 * [Considerations](#considerations)
-* Sitemap
-* Screenshots
-* Target audience
-* Tech stack
+* [Sitemap](#map)
+* [Screenshots](#screens)
+* [Target audience](#audience)
+* [Tech stack](#tech)
 
 # Functionality / features
+<a id="features"></a> 
 
 # Development and design process
+<a id="dev"></a> 
 
 The development process was broken into three stages:
 
 1. Design phase
-..* Create a wireframe of the site
-..* Moodboard and decide on colour and aesthetic
-..* Mockup designs in Sketch
+    * Create a wireframe of the site
+    * Moodboard and decide on colour and aesthetic
+    * Mockup designs in Sketch
 
 2. Development phase
-..* Complete HTML for the website
-..* Apply styling
-..* Test throughout build
+    * Complete HTML for the website
+    * Apply styling
+    * Test throughout build
 
 3. Deployment
-..* Deploy website
-..* Monitor for any issues that may arise
+    * Deploy website
+    * Monitor for any issues that may arise
 
 ### Design phase
 
@@ -82,9 +84,17 @@ As can be seen in the image the site has perfect scores across those three key a
 These scores show that I have achieved what I set out to do while developing the site.
 
 # Sitemap
+<a id="map"></a>
 
 # Screenshots
+<a id="screens"></a>
 
 # Target audience
+<a id="audience"></a>
+
+The target audience for this site is primarily potential employers. The goal of the website is for them to be able to get a good idea of my skills, abilities, style of work and overall personality just by browsing the site.
+
+Other potential users include co-workers, recruiters and anyone who wants to get to know me.
 
 # Tech stack
+<a id="tech"></a>
