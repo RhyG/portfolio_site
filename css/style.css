@@ -264,7 +264,7 @@ footer #footer-contact a:hover {
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   #page {
     background-color: #fff;
   }
