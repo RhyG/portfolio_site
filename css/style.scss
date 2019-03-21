@@ -45,6 +45,7 @@ nav {
         @include display;
         justify-content: space-between;
     }
+
     .navlink {
         color: $font_color_primary;
         font-size: 0.9rem;
@@ -150,6 +151,7 @@ nav {
 
 #skills {
     @include display;
+
     .section-title {
         @include section-title-style;
 
@@ -190,6 +192,7 @@ footer {
     #footer-contact {
         @include display;
         justify-content: space-between;
+
         a {
             color: $font_color_primary;
             height: 1.5em;
@@ -205,6 +208,31 @@ footer {
     }
 }
 
+/* About us page */
+
+.about {
+    border: 2px solid red;
+    height: 60vh;
+    @include display;
+
+    #about-text {
+        border: 2px solid black;
+    }
+
+    #workflow {
+        border: 2px solid green;
+        width: 100%;
+        background-color: #f9f9f9;
+        ul li {
+            list-style: none;
+        }
+        #content {
+            margin: 1em;
+            margin-left: 1.2em;
+        }
+    }
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 961px) {
 
@@ -212,7 +240,10 @@ footer {
         background-color: #fff;
     }
 
-    nav, .header, section, footer {
+    nav,
+    .header,
+    section,
+    footer {
         margin: 1em;
     }
 
@@ -220,6 +251,7 @@ footer {
         .navlink {
             margin: auto;
         }
+
         #links {
             width: 80%;
         }
