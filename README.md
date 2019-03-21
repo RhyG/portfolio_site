@@ -2,7 +2,7 @@
 
 The purpose of this website is as an online portfolio that potential employers and the generally curious can have a look at. Visitors will be able to see some of my skills, things I have worked on and the kind of person I am overall.
 
-# INSERT IMAGE OF WEBSITE WITH DROP SHADOW
+![Website image](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/website_demo.png "Website image")
 
 ### Contents
 
