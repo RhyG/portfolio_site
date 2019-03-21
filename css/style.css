@@ -37,10 +37,22 @@ nav {
           justify-content: space-between;
 }
 
+nav #links {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 nav .navlink {
   color: #161616;
   font-size: 0.9rem;
-  margin-left: 2em;
 }
 
 nav .navlink:hover {
@@ -275,6 +287,12 @@ footer #footer-contact a:hover {
   section,
   footer {
     margin: 1em;
+  }
+  nav .navlink {
+    margin: auto;
+  }
+  nav #links {
+    width: 80%;
   }
   .projects .section-title,
   #skills .section-title {

@@ -39,10 +39,16 @@ nav {
     display: flex;
     justify-content: space-between;
 
+    #links {
+        width: 30%;
+        display: flex;
+        flex: wrap;
+        justify-content: space-between;
+    }
     .navlink {
         color: $font_color_primary;
         font-size: 0.9rem;
-        margin-left: 2em;
+        // margin-left: 2em;
 
         &:hover {
             color: $color_highlight;
@@ -219,6 +225,15 @@ footer {
     section,
     footer {
         margin: 1em;
+    }
+
+    nav {
+        .navlink {
+            margin: auto;
+        }
+        #links {
+            width: 80%;
+        }
     }
 
     .projects,
