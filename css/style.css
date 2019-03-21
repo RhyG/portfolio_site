@@ -98,41 +98,6 @@ nav .logo img {
   color: #07889B;
 }
 
-/*
-.header {
-    min-height: 70vh;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(7, 1fr);
-
-    #header-img {
-        grid-column: 6 / span 2;
-        margin-left: auto;
-    }
-
-    img {
-        width: 15em;
-    }
-
-    #header-desc {
-        grid-column: 1 / span 4;
-
-        h1 {
-            color: $color_highlight;
-            font-size: 1.8rem;
-            font-weight: bold;
-        }
-
-        p {
-            font-size: 1.5rem;
-            font-weight: 100;
-
-            a {
-                color: $color_highlight;
-            }
-        }
-    }
-} */
 .projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -301,11 +266,13 @@ footer #footer-contact a:hover {
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 961px) {
   #page {
     background-color: #fff;
   }
-  .header, section,
+  nav,
+  .header,
+  section,
   footer {
     margin: 1em;
   }
@@ -344,6 +311,19 @@ footer #footer-contact a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 8em;
+    padding-top: 2em;
+    padding-bottom: 8em;
+  }
+  footer .logo {
+    margin-bottom: 2em;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   footer #footer-contact span {
     text-align: center;
@@ -352,6 +332,7 @@ footer #footer-contact a:hover {
   footer #footer-contact #socials {
     width: 100%;
     margin: auto;
+    margin-bottom: 2em;
   }
 }
 
