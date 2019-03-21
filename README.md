@@ -1,12 +1,61 @@
 # Portfolio site
 
-The purpose of this portfolio site is to serve as a primer on who I am and what I do. It allows prospective employers, contacts and generally curious people to get to know me.
+The purpose of this website is as an online portfolio that potential employers and the generally curious can have a look at. Visitors will be able to see some of my skills, things I have worked on and the kind of person I am overall.
+
+# INSERT IMAGE OF WEBSITE WITH DROP SHADOW
+
+### Contents
+
+* Functionality / features
+* Development and design process
+* [Considerations](#considerations)
+* Sitemap
+* Screenshots
+* Target audience
+* Tech stack
 
 # Functionality / features
 
 # Development and design process
 
+The development process was broken into three stages:
+
+1. Design phase
+..* Create a wireframe of the site
+..* Moodboard and decide on colour and aesthetic
+..* Mockup designs in Sketch
+
+2. Development phase
+..* Complete HTML for the website
+..* Apply styling
+..* Test throughout build
+
+3. Deployment
+..* Deploy website
+..* Monitor for any issues that may arise
+
+### Design phase
+
+The design phase was completed during the first day of the assignment. It started with getting inspiration from other developers and their portfolio sites, and it was during this phase that I got a good idea of what I like and don't like in a portfolio site. A lot of the sites I came across while looking for inspiration were immense, beautiful and impossibly creative adventures that a clearly talented person put a lot of effort into, and so often I barely saw half their site because there was no simple navigation, or it hijacked my scrolling and make it so tedious to get from element to element.
+
+I knew I wanted to create a simple, minimal website with bright but subtle colours and clean lines. I also wanted to avoid using things I didn't know, such as javascript, as the concept of authenticity was important to me in the design. I wanted users to get an accurate idea of my abilities, and I didn't want to implement anything I wasn't able to explain, update or maintain.
+
+Here are some examples of websites I took inspiration (and heavily borrowed styling) from.
+
+# INSERT WEBSITE IMAGES
+
+Once I knew the layout I wanted it was time to start wireframing. As my design was simple and I didn't plan to put too much content on the site, this was fairly straightforward.
+
+# INSERT WIREFRAME IMAGES
+
+Once the wireframe was complete it was onto the design. For this project I used Sketch, a popular Mac program used to create software designs. I started by laying out the wireframe on the artboard, and starting asseumbling the elements and applying the styling. It was during this phase I finalised the colour palette, I used to the site [Coolors](http://coolors.co/) to help decide on a palette, and the site [Color.review](https://color.review/) to determine accessibility for the colours used. I layed out the desktop and mobile designs.
+
+# INSERT WEB AND MOBILE DESIGN IMAGES
+
+Finally it was time to actually build the site. 
+
 # Considerations
+<a id="considerations"></a> 
 
 ### Accessibility
 
