@@ -17,9 +17,10 @@ html {
 }
 
 #page {
-  max-width: 1096px;
+  max-width: 1180px;
   margin: auto;
   background-image: url("../img/bg.png");
+  background-repeat: repeat;
 }
 
 nav {
@@ -65,7 +66,7 @@ nav .logo img {
 }
 
 .header {
-  min-height: 70vh;
+  min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,7 +316,7 @@ footer #footer-contact a:hover {
   }
   .skill-list ul li {
     display: inline;
-    margin-left: 1em;
+    margin-left: 0em;
   }
   footer {
     display: -webkit-box;
