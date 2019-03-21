@@ -34,8 +34,13 @@
 @mixin logo-style {
     .logo {
         img {
-        height: 4em;
-        width: auto;
+            height: 4em;
+            width: auto;
         }
     }
+}
+
+@mixin text-style {
+    font-size: 1.5rem;
+    font-weight: 100;
 }

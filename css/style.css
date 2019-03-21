@@ -39,7 +39,7 @@ nav {
 }
 
 nav #links {
-  width: 30%;
+  width: 22%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,6 +188,7 @@ nav .logo img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 4em;
 }
 
 #skills .section-title {
@@ -279,27 +280,43 @@ footer #footer-contact a:hover {
 
 /* About us page */
 .about {
-  border: 2px solid red;
-  height: 60vh;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 15%;
 }
 
-.about #about-text {
-  border: 2px solid black;
+.about #about-main {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.about #about-main h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.about #about-main #about-text {
+  padding-top: 0.5em;
 }
 
 .about #workflow {
-  border: 2px solid green;
   width: 100%;
   background-color: #f9f9f9;
+  max-height: 62%;
 }
 
-.about #workflow ul li {
-  list-style: none;
+.about #workflow h3 {
+  font-weight: bold;
+}
+
+.about #workflow ul {
+  font-size: 1.3em;
+  padding-left: 1.5em;
 }
 
 .about #workflow #content {
@@ -343,6 +360,9 @@ footer #footer-contact a:hover {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
+  #skills {
+    margin-top: 80%;
+  }
   .skill-icons img {
     height: 2em;
     width: auto;
@@ -350,6 +370,10 @@ footer #footer-contact a:hover {
   .skill-list ul li {
     display: inline;
     margin-left: 0em;
+  }
+  #workflow {
+    margin-top: 2em;
+    min-height: 90%;
   }
   footer {
     display: -webkit-box;
@@ -400,9 +424,6 @@ footer #footer-contact a:hover {
   #project-2 {
     width: 49%;
   }
-  #skills {
-    margin-top: 4em;
-  }
   #skills .skill-title {
     width: 20%;
   }
@@ -419,6 +440,22 @@ footer #footer-contact a:hover {
     margin: 0.5em;
     width: 3em;
     height: auto;
+  }
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about #about-main {
+    width: 65%;
+  }
+  .about #workflow {
+    width: 25%;
   }
   footer #logo {
     width: 60%;
