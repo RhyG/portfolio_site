@@ -1,3 +1,8 @@
+@mixin display {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @mixin full-width-centered {
     display: flex;
     justify-content: center;
