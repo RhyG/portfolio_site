@@ -24,7 +24,11 @@ Search engine optimisation was the final major consideration I made while develo
 
 Using the Google Chrome audits tool I was able to audit the site in these three areas.
 
-![Google Chrome Audits](./docs/images/audits.jpg) "Google Chrome Audits")
+![Google Chrome Audits](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/audits.png "Google Chrome Audits")
+
+As can be seen in the image the site has perfect scores across those three key areas, and a 93 in best practices which tests that the site is up to modern web development standards.
+
+These scores show that I have achieved what I set out to do while developing the site.
 
 # Sitemap
 
