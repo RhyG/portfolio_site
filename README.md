@@ -72,7 +72,7 @@ I only designed for desktop and mobile as I believed the design wouldn't change 
 
 ![Design mockups](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/design_mockups.jpg "Design mockups") 
 
-Finally it was time to actually build the site. 
+Finally it was time to actually build the site. I used VS Code and everything was made with HTML and CSS/SASS. As mentioned before I wanted to avoid using any technologies outside my scope, such as Javascript, as I wanted the site to be an accurate representation of my skills, as well as remaining something I can easily understand and maintain.
 
 # Considerations
 <a id="considerations"></a> 
@@ -116,3 +116,27 @@ Other potential users include co-workers, recruiters and anyone who wants to get
 
 # Tech stack
 <a id="tech"></a>
+
+The website is a static website built using HTML for the markup and CSS/SASS for the styling. The website is hosted on Github pages as well as my [personal domain](rhysgeary.com). On my personal domain the site components were uploaded to cPanel.
+
+### Key events in the development of the internet from the 1980s to today.
+
+In 1983 what was the proto-internet moves to TCP/IP, or the internet as we know it. The idea of a domain name system (DNS) emerges in 1983, which gives names to addresses rather than having to use numerical addresses.
+
+In March of 1989 Tim Berners-Lee proposes what will become the world wide web. It was at this time he came up with HTML, as well as creating the first browser. 
+
+In 1991 Tim Berners-Lee launched what was the first website, a site describing the web and HTML allowing others to contribute and create pages. 
+
+1993 Mosaic is created at University of Illinois, this allows web pages to display graphics along with text.
+
+1994 Online advertising is begins appearing, and begins what will be one of the largest methods of advertising ever.
+
+2000 The Dot-Com bubble bursts and with it many major online businesses go bust.
+
+### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
+
+Each system on a network has a unique address, or IP (internet protocol) address. The internet, being a big network, allows these systems to connect to each other and transmit data in packets. Many of these systems host web servers, which contain software and the components of a website so that it can be accessed by other systems. These web servers will reserve a name, or domain, as an address from which this data can be accessed. These names exist on domain name servers (DNS) which is a directory of names and their associated IP address. When a domain is entered into a URL bar the internet service provider checks the associated DNS and translates it into an IP address that the browser, software which translates those packets of data into a website the user can engage.
+
+### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+
+Modern serach engines are incredibly sophisticated technologies that allow users to access almost any part of the internet they can search for. Search engines have come along way since they were first proposed however, and are one of the major contributors to the rapid growth and pervasion of the internet. In 1991 as Tim Berners-Lee proposed the first iterations of the web, he also setup a virtual library which contains links to various academic topics. In 1993 the first web robot is created which scans and measures the size of the web. W3Catalog almost emerged, which didn't crawl the internet but used a list of websites which it scanned frequently. As the technology evolved, and search engines began to crawl the web rather than rely on an existing catalog of sites. This was fundamental as it opened the entirety of the internet to more and more people.
