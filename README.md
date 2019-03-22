@@ -1,6 +1,7 @@
+<a id="top"></a>
 # Portfolio site
 
-The purpose of my portfolio site is to establish a personal brand, and allow prospective employers and clients to establish who I am, the skills I possess and the kind of work I have done. Particularly in the growing digital world, a personal site is an extension of your resume. It is a practical example of what you are capable of, and gives you a chance to express yourself creatively and in a way that represents you.
+The purpose of my portfolio site is to establish a personal brand, and allow prospective employers and clients to get a sense of who I am, the skills I possess and the kind of work I have done. Particularly in the growing digital world, a personal site is an extension of your resume. It is a practical example of what you are capable of, and gives you a chance to express yourself creatively and in a way that represents you.
 
 [Check out the website here](http://www.rhysgeary.com) <br>
 [View the repo](https://github.com/RhyG/portfolio_site)
@@ -42,6 +43,8 @@ The development process was broken into three stages:
     * Deploy website
     * Monitor for any issues that may arise
 
+[Return to top](#top)
+
 ### Design phase
 
 The design phase was completed during the first day of the assignment. It started with getting inspiration from other developers and their portfolio sites, and it was during this phase that I got a good idea of what I like and don't like in a portfolio site. A lot of the sites I came across while looking for inspiration were immense, beautiful and impossibly creative adventures that a clearly talented person put a lot of effort into, and so often I barely saw half their site because there was no simple navigation, or it hijacked my scrolling and make it so tedious to get from element to element.
@@ -80,6 +83,8 @@ I only designed for desktop and mobile as I believed the design wouldn't change 
 
 Finally it was time to actually build the site. I used VS Code and everything was made with HTML and CSS/SASS. As mentioned before I wanted to avoid using any technologies outside my scope, such as Javascript, as I wanted the site to be an accurate representation of my skills, as well as remaining something I can easily understand and maintain.
 
+[Return to top](#top)
+
 # Considerations
 <a id="considerations"></a> 
 
@@ -111,6 +116,8 @@ Using the Google Chrome audits tool I was able to audit the site in these three 
 
 As can be seen in the image the site has perfect scores across those three key areas, and a 93 in best practices which tests that the site is up to modern web development standards. 
 
+[Return to top](#top)
+
 <a id="map"></a>
 # Sitemap
 
@@ -119,6 +126,8 @@ Here is a detailed overview of the complex structure of my website.
 ![Sitemap](https://github.com/RhyG/portfolio_site/blob/master/docs/sitemap.png "Sitemap")
 
 The sitemap.xml file can be viewed [here](https://github.com/RhyG/portfolio_site/blob/master/sitemap.xml).
+
+[Return to top](#top)
 
 <a id="screens"></a>
 # Screenshots 
@@ -136,6 +145,8 @@ Screenshots of my Trello board during the development of the site are available 
 The target audience for this site is primarily potential employers. The goal of the website is for them to be able to get a good idea of my skills, abilities, style of work and overall personality just by browsing the site.
 
 Other potential users include co-workers, recruiters and anyone who wants to get to know me.
+
+[Return to top](#top)
 
 <a id="tech"></a>
 # Tech stack
@@ -166,3 +177,5 @@ Each system on a network has a unique address, or IP (internet protocol) address
 ## Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
 Modern search engines are incredibly sophisticated technologies that allow users to access almost any part of the internet they can search for. Search engines have come along way since they were first proposed however, and are one of the major contributors to the rapid growth and pervasion of the internet. In 1991 as Tim Berners-Lee proposed the first iterations of the web, he also setup a virtual library which contains links to various academic topics. In 1993 the first web robot is created which scans and measures the size of the web. W3Catalog almost emerged, which didn't crawl the internet but used a list of websites which it scanned frequently. As the technology evolved, and search engines began to crawl the web rather than rely on an existing catalog of sites. This was fundamental as it opened the entirety of the internet to more and more people.
+
+[Return to top](#top)
