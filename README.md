@@ -2,7 +2,8 @@
 
 The purpose of my portfolio site is to establish a personal brand, and allow prospective employers and clients to establish who I am, the skills I possess and the kind of work I have done. Particularly in the growing digital world, a personal site is an extension of your resume. It is a practical example of what you are capable of, and gives you a chance to express yourself creatively and in a way that represents you.
 
-![Website image](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/website_demo.png "Website image")
+[Check out the website here](http://www.rhysgeary.com) <br>
+[View the repo](https://github.com/RhyG/portfolio_site)
 
 ### Contents
 
@@ -20,7 +21,7 @@ The purpose of my portfolio site is to establish a personal brand, and allow pro
 
 My portfolio site is a very simple, static site. It functions as most websites do, with a navbar at the top allowing navigation between pages. There is also a contact button containing a mailto link with my email, and the footer contains links to my Github and Linkedin as well as another mailto link. 
 
-The site features my projects thus far, as well as a list of my current and future skills. The about page features a short blurb about me and my setup.
+The site features my projects thus far, as well as a list of my current and future skills. The about page features a short blurb about me and my setup. The website is responsive, and displays well on all devices tested including mobile, tablet and desktop.
 
 <a id="dev"></a> 
 # Development and design process
@@ -51,7 +52,7 @@ Here are some examples of websites I took inspiration (and 'borrowed' styling) f
 
 ![Website inspiration](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/website_inspo.jpg "Website inspiration")
 
-Once I knew the layout I wanted it was time to start wireframing. As my design was simple and I didn't plan to put too much content on the site, this was fairly straightforward.
+Once I knew the layout I wanted it was time to start wireframing. As my design was simple and I didn't plan to put too much content on the site, this was fairly straightforward. I created both mobile and desktop wireframes, as I intended for the layout to change depending on the device.
 
 [Click here to view the full desktop wireframe](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/desktop_wireframe.jpg)
 
@@ -63,7 +64,7 @@ Once the wireframe was complete it was onto the design. It was during this phase
 
 I also decided on a font by using Google Fonts and browsing until I found something I liked, other than not wanting anything too dated or ugly I wasn't after anything specfic. 
 
-Finally was coming up with a logo. That was simple, and I just went with something simple and colourful.
+Finally was coming up with a logo. For this I used a similar logo I have used in the past, and had the designer who made it make some modifications.
 
 ![Design choices](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/font_colours.jpg "Design choices") 
 
@@ -82,15 +83,21 @@ Finally it was time to actually build the site. I used VS Code and everything wa
 # Considerations
 <a id="considerations"></a> 
 
+When building the site I had four main considerations, responsiveness, accessibility, performance and SEO. I believe these are four key components of a modern site, and are the baseline for an acceptable standard if you intend for the site to be viewable to more people than yourself.
+
+### Responsiveness
+
+These days a majority of internet users are mobile, with most people using their handheld devices to surf the net rather than using a desktop. This means it is important to build a site that can be accessed from any device and still display as intended. To satisfy this criteria, I developed with a mobile friendly approach. This meant building the site to function correctly on portable devices, and from there building the desktop version. 
+
 ### Accessibility
 
-Accessibility was one of my primary considerations when developing the site. Being a static HTML/CSS site achieving a high accessibility score wasn't too hard as long as my colour contrasts were high enough and my HTML was semantic.
+Accessibility was one of my primary considerations when developing the site. The internet can be accessed from everywhere in the world, and shouldn't be reserved for the physically able. I wanted my site to be usable for any user no matter how they access it. Being a static HTML/CSS site achieving a high accessibility score wasn't too hard as long as my colour contrasts were high enough and my HTML was semantic.
 
-I used the site [Color.review](https://color.review/) to choose my colours, and went with a dark text color on light colours. My highlight colour (#07889b) is only AA but being that it is scarcely used I thought that was acceptable. All other text is an almost-black that scores AAA across the board.
+I used the site [Color.review](https://color.review/) to choose my colours, and went with a dark text color on light colours. My highlight colour (#07889b) is only AA but being that it is scarcely used I thought that was acceptable. All other text is an almost-black that scores AAA across the board. I made sure the markup contained all the tags it needed so that screen readers and other accessibility devices could browse it without issue. 
 
 ### Performance
 
-Performance was also important to me, as a fast site says a lot to the user about the skill of the developer. [Research has also shown](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/) that users will leave a site if it takes over three seconds to load, which is not much time at all. As a result I was sure to keep images to a minimum, and optimised any I did have to load as quick as possible.
+Performance is incredibly important to me, as a fast site says a lot to the user about the skill of the developer. [Research has also shown](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/) that users will leave a site if it takes over three seconds to load, which is not much time at all. As a result I was sure to keep images to a minimum, and optimised any I did have to load as quick as possible.
 
 ### SEO
 
@@ -102,9 +109,7 @@ Using the Google Chrome audits tool I was able to audit the site in these three 
 
 ![Google Chrome Audits](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/audits.png "Google Chrome Audits")
 
-As can be seen in the image the site has perfect scores across those three key areas, and a 93 in best practices which tests that the site is up to modern web development standards.
-
-These scores show that I have achieved what I set out to do while developing the site.
+As can be seen in the image the site has perfect scores across those three key areas, and a 93 in best practices which tests that the site is up to modern web development standards. 
 
 <a id="map"></a>
 # Sitemap
