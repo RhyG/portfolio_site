@@ -54,7 +54,15 @@ Once I knew the layout I wanted it was time to start wireframing. As my design w
 
 ![Wireframe mockups](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/wireframe_mockups.jpg "Wireframe mockups") 
 
-Once the wireframe was complete it was onto the design. For this project I used Sketch, a popular Mac program used to create software designs. I started by laying out the wireframe on the artboard, and starting asseumbling the elements and applying the styling. It was during this phase I finalised the colour palette, I used to the site [Coolors](http://coolors.co/) to help decide on a palette, and the site [Color.review](https://color.review/) to determine accessibility for the colours used. I layed out the desktop and mobile designs.
+Once the wireframe was complete it was onto the design. It was during this phase I finalised the colour palette, I used the site [Coolors](http://coolors.co/) to help decide on a palette, and the site [Color.review](https://color.review/) to determine accessibility for the colours used. I wanted colours that stood out, and brightened up the site as it will otherwise be a fairly simple and flat site. 
+
+I also decided on a font by using Google Fonts and browsing until I found something I liked, other than not wanting anything too dated or ugly I wasn't after anything specfic. 
+
+Finally was coming up with a logo. That was simple, and I just went with something simple and colourful.
+
+![Design choices](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/font_colours.jpg "Design choices") 
+
+It was then onto doing up the designs. For this project I used Sketch, a popular Mac program used to create software designs. I started by laying out the wireframe on the artboard, and and then went on to assemble the elements and apply the styling. 
 
 I only designed for desktop and mobile as I believed the design wouldn't change from desktop to tablet, simply scale, and it wouldn't be until mobile that the layout would change.
 

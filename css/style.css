@@ -130,7 +130,7 @@ nav .logo img {
 }
 
 .projects .section-title span {
-  border-bottom: 5px solid pink;
+  border-bottom: 5px solid #ffc0cb;
   /* box-shadow: 10px 10px grey; 
         background-color: #f0f0f0;*/
 }
@@ -199,7 +199,7 @@ nav .logo img {
 }
 
 #skills .section-title span {
-  border-bottom: 5px solid pink;
+  border-bottom: 5px solid #ffc0cb;
   /* box-shadow: 10px 10px grey; 
         background-color: #f0f0f0;*/
 }
