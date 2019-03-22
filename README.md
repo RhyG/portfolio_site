@@ -54,8 +54,7 @@ Once the wireframe was complete it was onto the design. For this project I used 
 
 I only designed for desktop and mobile as I believed the design wouldn't change from desktop to tablet, simply scale, and it wouldn't be until mobile that the layout would change.
 
-![Desktop design](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/desktop_design.png "Desktop design")
-![Mobile design](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/mobile_design.png "Mobile design")
+![Design mockups](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/design_mockups.jpg "Design mockups") 
 
 Finally it was time to actually build the site. 
 
