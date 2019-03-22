@@ -39,11 +39,11 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    @include logo-style;
 
     #links {
         width: 22%;
-        @include display;
-        justify-content: space-between;
+        @include display-space-between;
     }
 
     .navlink {
@@ -56,7 +56,6 @@ nav {
         }
     }
 
-    @include logo-style;
 }
 
 .header {
@@ -72,6 +71,14 @@ nav {
     img {
         align-items: center;
         width: 15em;
+        &:hover { 
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
     }
 
     #header-desc {
@@ -79,7 +86,7 @@ nav {
 
         h1 {
             color: $color_highlight;
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: bold;
         }
 
@@ -94,8 +101,7 @@ nav {
 }
 
 .projects {
-    @include display;
-    justify-content: space-between;
+    @include display-space-between;
 
     .section-title {
         @include section-title-style;
@@ -179,18 +185,16 @@ nav {
 }
 
 footer {
-    @include display;
+    @include display-space-between;
     margin-top: 1em;
     border-top: 1px solid #f0f0f0;
     height: 6em;
     align-items: center;
-    justify-content: space-between;
     background-color: #fff;
     @include logo-style;
 
     #footer-contact {
-        @include display;
-        justify-content: space-between;
+        @include display-space-between;
 
         a {
             color: $font_color_primary;
@@ -224,7 +228,7 @@ footer {
         }
 
         #about-text {
-            padding-top: 0.5em;   
+            padding-top: 0.5em;
         }
     }
 }
@@ -390,8 +394,7 @@ footer {
     }
 
     .about {
-        @include display;
-        justify-content: space-between;
+        @include display-space-between;
 
         #about-main {
             width: 65%;

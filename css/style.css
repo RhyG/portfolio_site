@@ -38,6 +38,11 @@ nav {
           justify-content: space-between;
 }
 
+nav .logo img {
+  height: 4em;
+  width: auto;
+}
+
 nav #links {
   width: 22%;
   display: -webkit-box;
@@ -58,11 +63,6 @@ nav .navlink {
 nav .navlink:hover {
   color: #07889B;
   text-decoration: none;
-}
-
-nav .logo img {
-  height: 4em;
-  width: auto;
 }
 
 .header {
@@ -91,13 +91,31 @@ nav .logo img {
   width: 15em;
 }
 
+.header img:hover {
+  -webkit-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 .header #header-desc {
   width: 100%;
 }
 
 .header #header-desc h1 {
   color: #07889B;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -131,8 +149,6 @@ nav .logo img {
 
 .projects .section-title span {
   border-bottom: 5px solid #ffc0cb;
-  /* box-shadow: 10px 10px grey; 
-        background-color: #f0f0f0;*/
 }
 
 .projects #project-1 {
@@ -200,8 +216,6 @@ nav .logo img {
 
 #skills .section-title span {
   border-bottom: 5px solid #ffc0cb;
-  /* box-shadow: 10px 10px grey; 
-        background-color: #f0f0f0;*/
 }
 
 #skills .section-title span {
@@ -236,15 +250,15 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 1em;
   border-top: 1px solid #f0f0f0;
   height: 6em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   background-color: #fff;
 }
 

@@ -1,6 +1,6 @@
 # Portfolio site
 
-The purpose of this website is as an online portfolio that potential employers and the generally curious can have a look at. Visitors will be able to see some of my skills, things I have worked on and the kind of person I am overall.
+The purpose of my portfolio site is to establish a personal brand, and allow prospective employers and clients to establish who I am, the skills I possess and the kind of work I have done. Particularly in the growing digital world, a personal site is an extension of your resume. It is a practical example of what you are capable of, and gives you a chance to express yourself creatively and in a way that represents you.
 
 ![Website image](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/website_demo.png "Website image")
 

@@ -3,6 +3,11 @@
     flex-wrap: wrap;
 }
 
+@mixin display-space-between {
+    @include display;
+    justify-content: space-between;
+}
+
 @mixin full-width-centered {
     display: flex;
     justify-content: center;
@@ -18,8 +23,6 @@
 
     span {
         border-bottom: 5px solid #ffc0cb;
-        /* box-shadow: 10px 10px grey; 
-        background-color: #f0f0f0;*/
     }
 }
 
