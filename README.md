@@ -42,7 +42,7 @@ The design phase was completed during the first day of the assignment. It starte
 
 I knew I wanted to create a simple, minimal website with bright but subtle colours and clean lines. I also wanted to avoid using things I didn't know, such as javascript, as the concept of authenticity was important to me in the design. I wanted users to get an accurate idea of my abilities, and I didn't want to implement anything I wasn't able to explain, update or maintain.
 
-Here are some examples of websites I took inspiration (and heavily borrowed styling) from.
+Here are some examples of websites I took inspiration (and 'borrowed' styling) from.
 
 ![Website inspiration](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/website_inspo.jpg "Website inspiration")
 
@@ -52,7 +52,10 @@ Once I knew the layout I wanted it was time to start wireframing. As my design w
 
 Once the wireframe was complete it was onto the design. For this project I used Sketch, a popular Mac program used to create software designs. I started by laying out the wireframe on the artboard, and starting asseumbling the elements and applying the styling. It was during this phase I finalised the colour palette, I used to the site [Coolors](http://coolors.co/) to help decide on a palette, and the site [Color.review](https://color.review/) to determine accessibility for the colours used. I layed out the desktop and mobile designs.
 
-# INSERT WEB AND MOBILE DESIGN IMAGES
+I only designed for desktop and mobile as I believed the design wouldn't change from desktop to tablet, simply scale, and it wouldn't be until mobile that the layout would change.
+
+![Desktop design](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/desktop_design.png "Desktop design")
+![Mobile design](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/mobile_design.png "Mobile design")
 
 Finally it was time to actually build the site. 
 
