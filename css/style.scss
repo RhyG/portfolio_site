@@ -150,7 +150,6 @@ nav {
 
 #skills {
     @include display;
-    margin-top: 4em;
 
     .section-title {
         @include section-title-style;
@@ -293,10 +292,6 @@ footer {
         margin-bottom: 0.5em;
     }
 
-    #skills {
-        margin-top: 80%;
-    }
-
     .skill-icons img {
         height: 2em;
         width: auto;
@@ -367,6 +362,7 @@ footer {
     }
 
     #skills {
+        margin-top: 4em;
 
         .skill-title {
             width: 20%;
