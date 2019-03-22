@@ -135,7 +135,7 @@ Other potential users include co-workers, recruiters and anyone who wants to get
 <a id="tech"></a>
 # Tech stack
 
-The website is a static website built using HTML for the markup and CSS/SASS for the styling. The website is hosted on Github pages as well as my [personal domain](rhysgeary.com). On my personal domain the site components were uploaded to cPanel.
+The website is a static website built using HTML for the markup and CSS/SASS for the styling. The website is hosted on Github pages as well as my [personal domain](http://rhysgeary.com). On my personal domain the site components were uploaded to cPanel.
 
 <a id="questions"></a>
 # Internet questions
