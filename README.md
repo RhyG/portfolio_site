@@ -13,12 +13,17 @@ The purpose of this website is as an online portfolio that potential employers a
 * [Screenshots](#screens)
 * [Target audience](#audience)
 * [Tech stack](#tech)
+* [Internet questions and answers](#questions)
 
-# Functionality / features
 <a id="features"></a> 
+# Functionality / features
 
-# Development and design process
+My portfolio site is a very simple, static site. It functions as most websites do, with a navbar at the top allowing navigation between pages. There is also a contact button containing a mailto link with my email, and the footer contains links to my Github and Linkedin as well as another mailto link. 
+
+The site features my projects thus far, as well as a list of my current and future skills. The about page features a short blurb about me and my setup.
+
 <a id="dev"></a> 
+# Development and design process
 
 The development process was broken into three stages:
 
@@ -101,25 +106,41 @@ As can be seen in the image the site has perfect scores across those three key a
 
 These scores show that I have achieved what I set out to do while developing the site.
 
-# Sitemap
 <a id="map"></a>
+# Sitemap
 
-# Screenshots
+Here is a detailed overview of the complex structure of my website.
+
+![Sitemap](https://github.com/RhyG/portfolio_site/blob/master/docs/home.png "Sitemap")
+
+The sitemap.xml file can be viewed [here](https://github.com/RhyG/portfolio_site/blob/master/sitemap.xml).
+
 <a id="screens"></a>
+# Screenshots 
 
-# Target audience
+### Trello
+
+Screenshots of my Trello board during the development of the site are available [at this link](https://github.com/RhyG/portfolio_site/tree/master/docs/images/trello).
+
+[Screenshot of home page](https://github.com/RhyG/portfolio_site/blob/master/docs/home.png) <br>
+[Screenshot of about page](https://github.com/RhyG/portfolio_site/blob/master/docs/about.png)
+
 <a id="audience"></a>
+# Target audience
 
 The target audience for this site is primarily potential employers. The goal of the website is for them to be able to get a good idea of my skills, abilities, style of work and overall personality just by browsing the site.
 
 Other potential users include co-workers, recruiters and anyone who wants to get to know me.
 
-# Tech stack
 <a id="tech"></a>
+# Tech stack
 
 The website is a static website built using HTML for the markup and CSS/SASS for the styling. The website is hosted on Github pages as well as my [personal domain](rhysgeary.com). On my personal domain the site components were uploaded to cPanel.
 
-### Key events in the development of the internet from the 1980s to today.
+<a id="questions"></a>
+# Internet questions
+
+## Key events in the development of the internet from the 1980s to today.
 
 In 1983 what was the proto-internet moves to TCP/IP, or the internet as we know it. The idea of a domain name system (DNS) emerges in 1983, which gives names to addresses rather than having to use numerical addresses.
 
@@ -133,10 +154,10 @@ In 1991 Tim Berners-Lee launched what was the first website, a site describing t
 
 2000 The Dot-Com bubble bursts and with it many major online businesses go bust.
 
-### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
+## Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
 
 Each system on a network has a unique address, or IP (internet protocol) address. The internet, being a big network, allows these systems to connect to each other and transmit data in packets. Many of these systems host web servers, which contain software and the components of a website so that it can be accessed by other systems. These web servers will reserve a name, or domain, as an address from which this data can be accessed. These names exist on domain name servers (DNS) which is a directory of names and their associated IP address. When a domain is entered into a URL bar the internet service provider checks the associated DNS and translates it into an IP address that the browser, software which translates those packets of data into a website the user can engage.
 
-### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+## Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
 Modern serach engines are incredibly sophisticated technologies that allow users to access almost any part of the internet they can search for. Search engines have come along way since they were first proposed however, and are one of the major contributors to the rapid growth and pervasion of the internet. In 1991 as Tim Berners-Lee proposed the first iterations of the web, he also setup a virtual library which contains links to various academic topics. In 1993 the first web robot is created which scans and measures the size of the web. W3Catalog almost emerged, which didn't crawl the internet but used a list of websites which it scanned frequently. As the technology evolved, and search engines began to crawl the web rather than rely on an existing catalog of sites. This was fundamental as it opened the entirety of the internet to more and more people.
