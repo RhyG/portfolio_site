@@ -210,9 +210,9 @@ footer {
 /* About us page */
 
 .about {
-    height: 50vh;
+    min-height: 50vh;
     @include display;
-    margin-top: 15%;
+    margin-top: 10%;
 
     #about-main {
         width: 100%;
@@ -397,6 +397,7 @@ footer {
 
         #workflow {
             width: 25%;
+            height: 50%;
         }
     }
 

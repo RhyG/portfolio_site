@@ -279,13 +279,13 @@ footer #footer-contact a:hover {
 
 /* About us page */
 .about {
-  height: 50vh;
+  min-height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .about #about-main {
@@ -455,6 +455,7 @@ footer #footer-contact a:hover {
   }
   .about #workflow {
     width: 25%;
+    height: 50%;
   }
   footer #logo {
     width: 60%;
