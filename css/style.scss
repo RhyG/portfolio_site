@@ -217,36 +217,38 @@ footer {
     #about-main {
         width: 100%;
         @include text-style;
-        
+
         h2 {
             font-size: 1.8em;
             font-weight: bold;
         }
 
         #about-text {
-            padding-top: 0.5em;
-        }
-    }
-
-    #workflow {
-        width: 100%;
-        background-color: #f9f9f9;
-        max-height: 62%;
-        h3 {
-            font-weight: bold;
-        }
-
-        ul {
-            font-size: 1.3em;
-            padding-left: 1.5em;
-        }
-
-        #content {
-            margin: 1em;
-            margin-left: 1.2em;
+            padding-top: 0.5em;   
         }
     }
 }
+
+#workflow {
+    width: 100%;
+    background-color: #f9f9f9;
+    max-height: 62%;
+
+    h3 {
+        font-weight: bold;
+    }
+
+    ul {
+        font-size: 1.3em;
+        padding-left: 1.5em;
+    }
+
+    #content {
+        margin: 1em;
+        margin-left: 1.2em;
+    }
+}
+
 
 /* Mobile styles */
 @media only screen and (max-width: 961px) {

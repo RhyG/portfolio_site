@@ -44,7 +44,7 @@ I knew I wanted to create a simple, minimal website with bright but subtle colou
 
 Here are some examples of websites I took inspiration (and heavily borrowed styling) from.
 
-# INSERT WEBSITE IMAGES
+![Website inspiration](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/website_inspo.jpg "Website inspiration")
 
 Once I knew the layout I wanted it was time to start wireframing. As my design was simple and I didn't plan to put too much content on the site, this was fairly straightforward.
 
