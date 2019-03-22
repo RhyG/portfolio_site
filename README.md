@@ -48,6 +48,7 @@ Here are some examples of websites I took inspiration (and 'borrowed' styling) f
 
 Once I knew the layout I wanted it was time to start wireframing. As my design was simple and I didn't plan to put too much content on the site, this was fairly straightforward.
 [Click here to view the full desktop wireframe](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/desktop_wireframe.jpg)
+
 [Click here to view the full mobile wireframe](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/mobile_wireframe.jpg)
 
 ![Wireframe mockups](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/wireframe_mockups.jpg "Wireframe mockups") 
@@ -56,6 +57,7 @@ Once the wireframe was complete it was onto the design. For this project I used 
 
 I only designed for desktop and mobile as I believed the design wouldn't change from desktop to tablet, simply scale, and it wouldn't be until mobile that the layout would change.
 [Click here to view the full desktop design](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/desktop_design.png)
+
 [Click here to view the full mobile design](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/mobile_design.png)
 
 ![Design mockups](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/design_mockups.jpg "Design mockups") 
