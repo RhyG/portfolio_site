@@ -111,7 +111,7 @@ These scores show that I have achieved what I set out to do while developing the
 
 Here is a detailed overview of the complex structure of my website.
 
-![Sitemap](https://github.com/RhyG/portfolio_site/blob/master/docs/home.png "Sitemap")
+![Sitemap](https://github.com/RhyG/portfolio_site/blob/master/docs/sitemap.png "Sitemap")
 
 The sitemap.xml file can be viewed [here](https://github.com/RhyG/portfolio_site/blob/master/sitemap.xml).
 
