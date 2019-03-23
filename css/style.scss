@@ -23,11 +23,14 @@ html {
     height: 100%;
     margin: 0;
     border-top: 2px solid $color_highlight;
+    
+    //sets colour for all links
     a {
         color: $font_color_primary;
     }
 }
 
+/* contains all on page elements, allowing for the background and max-width of all elements. */
 #page {
     max-width: 1180px;
     margin: auto;
@@ -35,6 +38,8 @@ html {
     background-repeat: repeat;
 }
 
+
+// navbar styles
 nav {
     color: $font_color_primary;
     width: 100%;
@@ -61,6 +66,7 @@ nav {
 
 }
 
+/* styles for the header, or hero area, containing the description and image of me */
 .header {
     min-height: 60vh;
     @include display;
@@ -69,11 +75,11 @@ nav {
     align-items: center;
 
     #header-img {
-        width: 100%;
+        width: 100%; // places the image on a new line on smaller devices
     }
 
     #header-desc {
-        width: 100%;
+        width: 100%; // palces description on own line on smaller devices
         @include text-style;
 
         h1 {
@@ -84,6 +90,7 @@ nav {
     }
 }
 
+/* styles for the project section */
 .projects {
     @include display-space-between;
 
@@ -133,6 +140,7 @@ nav {
     }
 }
 
+/* styles for the skills section */
 #skills {
     @include display;
 
@@ -144,6 +152,7 @@ nav {
         }
     }
 
+    // puts each element of the skills section on its own line
     .skill-title,
     .skill-list,
     .skill-icons {
@@ -163,6 +172,7 @@ nav {
     }
 }
 
+/* styles for the footer section */
 footer {
     @include display-space-between;
     margin-top: 1em;
@@ -402,3 +412,14 @@ footer {
         }
     }
 }
+
+/*
+_______ _                 _           __             _             _    _              
+|__   __| |               | |         / _|           | |           | |  (_)             
+   | |  | |__   __ _ _ __ | | _____  | |_ ___  _ __  | | ___   ___ | | ___ _ __   __ _  
+   | |  | '_ \ / _` | '_ \| |/ / __| |  _/ _ \| '__| | |/ _ \ / _ \| |/ / | '_ \ / _` | 
+   | |  | | | | (_| | | | |   <\__ \ | || (_) | |    | | (_) | (_) |   <| | | | | (_| | 
+   |_|  |_| |_|\__,_|_| |_|_|\_\___/ |_| \___/|_|    |_|\___/ \___/|_|\_\_|_| |_|\__, | 
+                                                                                  __/ | 
+                                                                                 |___/  
+*/
