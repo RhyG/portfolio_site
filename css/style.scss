@@ -23,6 +23,9 @@ html {
     height: 100%;
     margin: 0;
     border-top: 2px solid $color_highlight;
+    a {
+        color: $font_color_primary;
+    }
 }
 
 #page {
@@ -61,6 +64,7 @@ nav {
 .header {
     min-height: 60vh;
     @include display;
+    @include image-animation;
     justify-content: center;
     align-items: center;
 
@@ -68,51 +72,14 @@ nav {
         width: 100%;
     }
 
-    img {
-        align-items: center;
-        width: 15em;
-
-        &:hover {
-            -webkit-animation: spin 4s linear infinite;
-            -moz-animation: spin 4s linear infinite;
-            animation: spin 4s linear infinite;
-        }
-
-        @-moz-keyframes spin {
-            100% {
-                -moz-transform: rotate(360deg);
-            }
-        }
-
-        @-webkit-keyframes spin {
-            100% {
-                -webkit-transform: rotate(360deg);
-            }
-        }
-
-        @keyframes spin {
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-    }
-
     #header-desc {
         width: 100%;
+        @include text-style;
 
         h1 {
             color: $color_highlight;
             font-size: 2rem;
             font-weight: bold;
-        }
-
-        p {
-            @include text-style;
-
-            a {
-                color: $color_highlight;
-            }
         }
     }
 }
@@ -133,7 +100,8 @@ nav {
     }
 
     .project-info {
-        padding: 1.2em 1.2em 1.2em 1.2em;
+        padding: 1.2em;
+        font-weight: bold;
 
         h3 {
             font-size: 1.5rem;
@@ -146,12 +114,6 @@ nav {
             line-height: 1.2;
             font-weight: 200;
         }
-
-        a {
-            font-weight: bold;
-            color: $font_color_primary;
-        }
-
     }
 
     .image-container {
@@ -214,7 +176,6 @@ footer {
         @include display-space-between;
 
         a {
-            color: $font_color_primary;
             height: 1.5em;
             width: auto;
 

@@ -16,6 +16,11 @@ html {
   border-top: 2px solid #07889B;
 }
 
+body a,
+html a {
+  color: #161616;
+}
+
 #page {
   max-width: 1180px;
   margin: auto;
@@ -80,52 +85,36 @@ nav .navlink:hover {
           align-items: center;
 }
 
-.header #header-img {
-  width: 100%;
-}
-
 .header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 15em;
+  -webkit-transition: all 1.5s ease-in-out 0s;
+  transition: all 1.5s ease-in-out 0s;
 }
 
 .header img:hover {
-  -webkit-animation: spin 4s linear infinite;
-  animation: spin 4s linear infinite;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: all 1.5s ease-in-out 0s;
+  transition: all 1.5s ease-in-out 0s;
 }
 
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.header #header-img {
+  width: 100%;
 }
 
 .header #header-desc {
   width: 100%;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
 .header #header-desc h1 {
   color: #07889B;
   font-size: 2rem;
   font-weight: bold;
-}
-
-.header #header-desc p {
-  font-size: 1.5rem;
-  font-weight: 100;
-}
-
-.header #header-desc p a {
-  color: #07889B;
 }
 
 .projects {
@@ -160,7 +149,8 @@ nav .navlink:hover {
 }
 
 .projects .project-info {
-  padding: 1.2em 1.2em 1.2em 1.2em;
+  padding: 1.2em;
+  font-weight: bold;
 }
 
 .projects .project-info h3 {
@@ -173,11 +163,6 @@ nav .navlink:hover {
   font-size: 1rem;
   line-height: 1.2;
   font-weight: 200;
-}
-
-.projects .project-info a {
-  font-weight: bold;
-  color: #161616;
 }
 
 .projects .image-container {
@@ -279,7 +264,6 @@ footer #footer-contact {
 }
 
 footer #footer-contact a {
-  color: #161616;
   height: 1.5em;
   width: auto;
 }
