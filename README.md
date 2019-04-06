@@ -51,7 +51,7 @@ The design phase was completed during the first day of the assignment. It starte
 
 I knew I wanted to create a simple, minimal website with bright but subtle colours and clean lines. I also wanted to avoid using things I didn't know, such as javascript, as the concept of authenticity was important to me in the design. I wanted users to get an accurate idea of my abilities, and I didn't want to implement anything I wasn't able to explain, update or maintain.
 
-Here are some examples of websites I took inspiration (and 'borrowed' styling) from.
+Here are some examples of websites I took inspiration (and 'borrowed' styling) from. This also served as my mood board.
 
 ![Website inspiration](https://raw.githubusercontent.com/RhyG/portfolio_site/master/docs/images/website_inspo.jpg "Website inspiration")
 
@@ -65,7 +65,7 @@ Once I knew the layout I wanted it was time to start wireframing. As my design w
 
 Once the wireframe was complete it was onto the design. It was during this phase I finalised the colour palette, I used the site [Coolors](http://coolors.co/) to help decide on a palette, and the site [Color.review](https://color.review/) to determine accessibility for the colours used. I wanted colours that stood out, and brightened up the site as it will otherwise be a fairly simple and flat site. 
 
-I also decided on a font by using Google Fonts and browsing until I found something I liked, other than not wanting anything too dated or ugly I wasn't after anything specfic. 
+I also decided on a font by using Google Fonts and browsing until I found something I liked, other than not wanting anything too dated or ugly I wasn't after anything specific. 
 
 Finally was coming up with a logo. For this I used a similar logo I have used in the past, and had the designer who made it make some modifications.
 
